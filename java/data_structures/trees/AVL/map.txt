@@ -1,0 +1,23 @@
+insert(value)
+
+root = insert(null, 5)
+
+root = insert(5, 4)
+
+insert(node, value)
+
+5
+node is null returns a new instance of node and sets it as the root.
+height of 5 is 1
+balance not config'ed
+
+4
+(5, 4)
+call 1 - (null, 4)
+return 1 - node is null returns a new instance of node and sets it as the root.
+set left child of 5 as 4
+set 5 as the parent of 4
+set the node 4 height to 1
+balance not config'ed
+complete call 1 and go to original frame with (5, 4) with return
+value of 
